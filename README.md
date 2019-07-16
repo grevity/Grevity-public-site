@@ -1,2 +1,2 @@
 # Grevity-public-site
-## Link To Site (http://www.grevity.in/)
+## Link To Site http://www.grevity.in
