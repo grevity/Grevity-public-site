@@ -4,7 +4,10 @@ const expressLayouts = require('express-ejs-layouts');
 const engine = require('ejs-locals');
 
 const app = express();
-app.listen(5000);
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, console.log(`Server started on port ${PORT}`));
+
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
