@@ -1,7 +1,170 @@
-.nav-brand{
-    color:#ffbc5d;
-    font-size:24px;
+.cls-1,
+.cls-28,
+.cls-31,
+.cls-33 {
+  fill: none;
 }
-.selected-logo{
-    background-color: #ffe3bc;
+.cls-2 {
+  isolation: isolate;
+}
+.cls-3 {
+  fill: #6a64ff;
+  opacity: 0.34;
+}
+.cls-12,
+.cls-13,
+.cls-23,
+.cls-24,
+.cls-26,
+.cls-27,
+.cls-29,
+.cls-3 {
+  mix-blend-mode: multiply;
+}
+.cls-4 {
+  fill: #4d70ff;
+}
+.cls-5 {
+  opacity: 0.2;
+}
+.cls-20,
+.cls-6 {
+  opacity: 0.91;
+}
+.cls-20,
+.cls-22,
+.cls-25,
+.cls-6 {
+  mix-blend-mode: screen;
+}
+.cls-6 {
+  fill: url(#linear-gradient);
+}
+.cls-7 {
+  fill: #9a9fb3;
+}
+.cls-32,
+.cls-8 {
+  fill: #f88;
+}
+.cls-9 {
+  opacity: 0.83;
+}
+.cls-10 {
+  clip-path: url(#clip-path);
+}
+.cls-11 {
+  fill: #fff;
+}
+.cls-12,
+.cls-13,
+.cls-22,
+.cls-23,
+.cls-24,
+.cls-25,
+.cls-29 {
+  opacity: 0.28;
+}
+.cls-12 {
+  fill: url(#linear-gradient-2);
+}
+.cls-13 {
+  fill: url(#linear-gradient-3);
+}
+.cls-14 {
+  fill: #2d24a3;
+}
+.cls-15 {
+  fill: #ffadad;
+}
+.cls-16 {
+  fill: #212226;
+}
+.cls-17 {
+  fill: #4340a3;
+}
+.cls-18 {
+  fill: #a67070;
+}
+.cls-19 {
+  fill: #402c2c;
+}
+.cls-20 {
+  fill: url(#linear-gradient-4);
+}
+.cls-21 {
+  clip-path: url(#clip-path-2);
+}
+.cls-22 {
+  fill: url(#linear-gradient-5);
+}
+.cls-23 {
+  fill: url(#linear-gradient-6);
+}
+.cls-24 {
+  fill: url(#linear-gradient-7);
+}
+.cls-25 {
+  fill: url(#linear-gradient-8);
+}
+.cls-26 {
+  fill: url(#linear-gradient-9);
+}
+.cls-27 {
+  fill: url(#linear-gradient-10);
+}
+.cls-28,
+.cls-33 {
+  stroke: #fff;
+}
+.cls-28 {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.cls-29 {
+  fill: url(#linear-gradient-11);
+}
+.cls-30 {
+  fill: #ffe7db;
+}
+.cls-31 {
+  stroke: #9a9fb3;
+  stroke-width: 0.25px;
+}
+.cls-31,
+.cls-33 {
+  stroke-miterlimit: 10;
+}
+.cls-32 {
+  opacity: 0.68;
+}
+.nav-brand {
+  color: #ffbc5d;
+  font-size: 24px;
+}
+.selected-logo {
+  background-color: #ffe3bc;
+}
+path.my-blob-animation {
+  animation: scaleRotate 1.5s ease-in-out infinite forwards;
+  stroke: #6a64ff;
+  transform-origin: 50% 50%;
+}
+path.my-blob-animation-1 {
+  stroke: #4d70ff;
+  animation: scaleRotate 1.5s ease-in-out infinite forwards;
+  animation-delay: 0.3s;
+  transform-origin: 50% 50%;
+  /* transform: rotate(90deg); */
+}
+@keyframes scaleRotate {
+  0% {
+    stroke-width: 0;
+  }
+  50% {
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-width: 0;
+  }
 }
