@@ -168,3 +168,57 @@ path.my-blob-animation-1 {
     stroke-width: 0;
   }
 }
+svg,
+svg circle {
+  fill: royalblue;
+}
+
+@keyframes from0to360 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#Circle1 {
+  animation: from0to360 3.5s linear infinite;
+  cx: 150;
+  cy: 145;
+  r: 80;
+  transform-origin: 125px 120px;
+}
+
+#Circle2 {
+  animation: from360to0 5s linear infinite;
+  cx: 150;
+  cy: 145;
+  r: 80;
+  transform-origin: 135px 130px;
+}
+
+#Circle3 {
+  animation: from0to360 4s linear infinite;
+  cx: 125;
+  cy: 150;
+  r: 90;
+  transform-origin: 120px 125px;
+}
+
+#Circle4 {
+  animation: from360to0 4s linear infinite;
+  cx: 105;
+  cy: 130;
+  r: 100;
+  transform-origin: 110px 125px;
+}
+
+@keyframes from360to0 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

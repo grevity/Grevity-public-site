@@ -24,7 +24,11 @@
             />
             <span
               class="nav-brand"
-              style="margin-top:18px;font-weight: 600;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+              style="
+                margin-top: 18px;
+                font-weight: 600;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              "
               >Grevity</span
             >
           </a>
@@ -95,12 +99,12 @@
                 Introducing <span class="selected-logo">Grevity</span>
               </h2>
               <p class="text-muted">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry standard dummy text.
+                The Best Place For Best Software.We develop innovative and
+                creative products and services that provide total communication
+                and information solutions
               </p>
-              <a href="#" class="btn btn-soft-primary btn-lg">Explore More</a>
+              <!-- <a href="#" class="btn btn-soft-primary btn-lg">Explore More</a> -->
             </div>
-
             <div class="col-sm-12 col-md-4 col-lg-8 d-none d-lg-inline-block">
               <!-- <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -265,7 +269,40 @@
                       rx="33.15"
                       ry="6.49"
                     />
-                    <path
+                    <svg
+                      id="organic-blob"
+                      width="300"
+                      height="300"
+                      xmlns="http://www.w3.org/2000/svg"
+                      filter="url(#goo)"
+                    >
+                      <defs>
+                        <filter id="goo">
+                          <!-- tympanus.net/codrops/creative-gooey-effects -->
+                          <feGaussianBlur
+                            in="SourceGraphic"
+                            stdDeviation="10"
+                            result="blur"
+                          />
+                          <feColorMatrix
+                            in="blur"
+                            mode="matrix"
+                            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                            result="goo"
+                          />
+                          <feComposite
+                            in="SourceGraphic"
+                            in2="goo"
+                            operator="atop"
+                          />
+                        </filter>
+                      </defs>
+                      <circle id="Circle1"></circle>
+                      <circle id="Circle2"></circle>
+                      <circle id="Circle3"></circle>
+                      <circle id="Circle4"></circle>
+                    </svg>
+                    <!-- <path
                       class="cls-4 my-blob-animation-1"
                       d="M941.49,426.63c58.51-4,85.65,25.71,100.68,65.52s37.29,53.51,21.92,99.33S993.2,643.36,971.5,638s-44.2-19.24-71.22-29.66c-40.19-15.51-50.12-35.91-50.92-56-1.14-28.43,13.85-31.6,18.67-62.77C873.8,452.21,895.72,429.74,941.49,426.63Z"
                       transform="translate(-841.6 -420.15)"
@@ -274,7 +311,7 @@
                       class="cls-3 my-blob-animation"
                       d="M862.27,474.66c-28.7,46.08-5.21,104.55,26,134.66,27.85,26.87,76.72,45.52,103.67,28.34,19.69-12.56,14.78-36,44.67-59.67,19.42-15.37,29-11.4,35.33-22.33,15.11-26.11-16.33-88.85-67.33-112.34C962,423.69,892.85,425.57,862.27,474.66Z"
                       transform="translate(-841.6 -420.15)"
-                    />
+                    /> -->
                     <path
                       class="cls-5"
                       d="M1058.07,464.87a17.18,17.18,0,0,0-16.41,22.27l-7.9,6.8,11-1.06a17.17,17.17,0,1,0,13.33-28Z"
@@ -1274,7 +1311,11 @@
             <img class="nav-logo" src="../assets/images/logo.png" alt="Last" />
             <span
               class="nav-brand"
-              style="margin-top:18px;font-weight: 600;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+              style="
+                margin-top: 18px;
+                font-weight: 600;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              "
               >Grevity</span
             >
           </a>
