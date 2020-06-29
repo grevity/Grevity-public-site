@@ -222,3 +222,7 @@ svg circle {
     transform: rotate(0deg);
   }
 }
+
+.text-muted {
+  font-size: 14px !important;
+}
